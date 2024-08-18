@@ -7,7 +7,7 @@ let a = {
 
 a.age = 27;
 console.log(a)
-function setname(hometown,state){
+function setname(hometown,state,){
     console.log(this.fname +" "+ this.lname + " From " +hometown+" , "+state)
 }
 setname.call(a)

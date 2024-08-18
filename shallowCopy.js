@@ -10,3 +10,9 @@ shallowCopy2 [1][0] = 5;
 
 console.log(originalArray); // [1, 2, [99, 4]]
 console.log(shallowCopy2);   // [1, 2, [99, 4]]
+
+const arra = [1,2,3,5,[6,7],8]
+const arrb = [...arra]
+arrb[4][0] = 9
+console.log(arra); 
+console.log(arrb); 
